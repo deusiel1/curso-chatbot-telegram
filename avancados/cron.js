@@ -21,7 +21,7 @@ const notificacao = new schedule.scheduleJob('*/5 * * * * *', notificar)
 
 bot.action('cancel', ctx => {
     notificacao.cancel()
-    ctx.reply('Ok! Parei de pertubar...')
+    ctx.reply('Ok! Parei de perturbar...')
 })
 
 bot.startPolling()
